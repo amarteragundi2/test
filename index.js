@@ -61,6 +61,6 @@ mongoose.connect('mongodb://localhost/prybox', function(err){
 
 /* Mongo connect - END */
 
-serv.listen(4000, function() {
+serv.listen(5000, function() {
 	console.log('Server running at http://192.168.43.120:4000');
 });
